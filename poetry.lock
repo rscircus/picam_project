@@ -156,6 +156,21 @@ files = [
 ]
 
 [[package]]
+name = "picamera"
+version = "1.13"
+description = "A pure Python interface for the Raspberry Pi camera module."
+optional = false
+python-versions = "*"
+files = [
+    {file = "picamera-1.13.tar.gz", hash = "sha256:890815aa01e4d855a6a95dd3ad0953b872a6b954982106407df0c5a31a163e50"},
+]
+
+[package.extras]
+array = ["numpy"]
+doc = ["sphinx"]
+test = ["Pillow", "coverage", "mock", "numpy", "pytest"]
+
+[[package]]
 name = "pillow"
 version = "10.4.0"
 description = "Python Imaging Library (Fork)"
@@ -319,4 +334,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "a0344ae12008ba609bab817e06111db77ebcaea697489eb3856c7cb0d33e653b"
+content-hash = "9210cca91727cc05500b832b222556f76aea903f26262c5ec08c0a20c212efe6"
